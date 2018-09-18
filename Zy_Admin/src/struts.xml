@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+<constant name="struts.action.excludePattern" value="/static/.*?" /><!-- default locale -->
+<constant name="struts.i18n.encoding" value="utf-8"></constant>
+ <package name="struts_json" extends="json-default">
+
+          <action name="UserInfo_*" class="com.zy.Control.UserInfoControl" method="{1}">
+        	<result name="login">index.jsp</result>
+        	<result name="productList">Tea_manage/product_list.jsp</result>
+        	<result type="json"></result>  
+         </action> 
+         
+         
+         
+          
+          <action name="Product_*" class="com.zy.Control.ProductControll" method="{1}">
+        	
+        	<result name="sortProduct">Tea_manage/product_sortProduct.jsp</result>
+        	<result name="showSort">Tea_manage/product_sort.jsp</result>
+        	<result type="json"></result>  
+         </action> 
+        
+    </package>  
+</struts>    

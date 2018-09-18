@@ -1,0 +1,52 @@
+﻿body {
+  background: url(../images/bg_big.jpg) no-repeat fixed center center;
+  background-size: cover; }
+
+.login-layout {
+  background-color: #666769; }
+  .login-layout .login-container {
+    margin-top: 13%; }
+    .login-layout .login-container .login-title {
+      background-color: rgba(153, 153, 153, 0.3);
+      border-radius: 5px;
+      padding: 10px 0; }
+      .login-layout .login-container .login-title h1 {
+        margin: 0; }
+  .login-layout .widget-box {
+    background-color: rgba(153, 153, 153, 0.5);
+    border-radius: 5px; }
+    .login-layout .widget-box .widget-body {
+      border-radius: 5px; }
+      .login-layout .widget-box .widget-body .widget-main {
+        border-radius: 5px; }
+  .login-layout .captcha-group input {
+    width: 140px; }
+  .login-layout .captcha-group img {
+    border: 1px solid #cccccc;
+    cursor: pointer;
+    vertical-align: bottom; }
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url(../images/bg_small.jpg); }
+
+  .login-container {
+    margin-top: 5%; } }
+
+/*# sourceMappingURL=login.css.map */
+.error_box{
+  height:40px;
+  width:350px;
+  margin:0 auto;
+  line-height:40px;
+  color:#fc4343;
+}
+/*验证码*/
+.phoKey { background: #ff7200;
+  background-image: url();
+
+  text-align: center; line-height: 44px; color: #fff; }
+
+  .phoKey{letter-spacing: 3px; font-size:18px;}
+  .add { width: 20%; height: 44px;display: inline; cursor: pointer; margin: 10px;
+   }

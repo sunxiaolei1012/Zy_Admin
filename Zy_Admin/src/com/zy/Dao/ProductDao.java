@@ -10,9 +10,6 @@ import com.zy.Util.ProductSort;
  *
  */
 
-
-
-
 public interface ProductDao {
 	
 	
@@ -21,7 +18,6 @@ public interface ProductDao {
 *
 */
 	public int check_pname(String name);
-
 	
 /***
  * 查看商品的分类

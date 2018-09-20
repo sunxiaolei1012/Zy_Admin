@@ -8,9 +8,6 @@ public class PageCount {
 	 * @return
 	 */
 	public static int getCount(int totalCount,int pageCount){
-		
-		
-		
 		return totalCount%pageCount==0?totalCount/pageCount:totalCount/pageCount+1;
 	
 	}

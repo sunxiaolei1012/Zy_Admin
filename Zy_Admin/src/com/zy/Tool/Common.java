@@ -3,8 +3,12 @@ package com.zy.Tool;
 import java.text.SimpleDateFormat;
 import java.util.Properties;
 
+import com.zy.Dao.CardDao;
+import com.zy.Dao.OrderDao;
 import com.zy.Dao.ProductDao;
 import com.zy.Dao.UserInfoDao;
+import com.zy.DaoImpl.CardDaoImpl;
+import com.zy.DaoImpl.OrderDaoImpl;
 import com.zy.DaoImpl.ProductDaoImpl;
 
 import com.zy.DaoImpl.UserInfoDaoImpl;
@@ -35,6 +39,8 @@ public class Common {
 	 public static final Util UTIL = new Util();
 	 public static final UserInfoDao usd=new UserInfoDaoImpl();
 	 public static final ProductDao psd=new ProductDaoImpl();
+	 public static final CardDao  cd=new CardDaoImpl();
+	 public static final OrderDao  od=new OrderDaoImpl();
 	 public static final JDBC JD = new JDBC();
 	 public static final Gsons gson = new Gsons();
 	 public static final SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss"); 

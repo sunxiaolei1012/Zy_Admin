@@ -152,7 +152,6 @@ public class Util<T> {
 		return conn;
 	}
 	
-	
 	public static void closeRes(Connection con,Statement sta,ResultSet res){
 		
 		try {

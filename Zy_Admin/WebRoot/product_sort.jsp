@@ -120,7 +120,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			<center>
 			<div class="admin-table-page">
 				<div id="page" class="page">
-				asdasdsadasd
+				
 				</div>
 			</div>
 			</center>

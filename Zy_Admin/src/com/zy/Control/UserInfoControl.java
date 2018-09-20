@@ -52,11 +52,7 @@ public class UserInfoControl extends ActionSupport{
 		
 		if(pageNo==0){
 			pageNo=1;
-			
 		}
-		
-		
-		
 			System.out.println("show——Product---------");
 			List<Product> list=Common.usd.showProductList(pageNo-1,pageCount);
 			
@@ -73,11 +69,6 @@ public class UserInfoControl extends ActionSupport{
 			
 		return "productList";
 	}
-	
-	
-	
-	
-	
 	
 	public String getName() {
 		return name;

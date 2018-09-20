@@ -93,12 +93,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		  	 
 		  	 alert("数量修改失败！");
 		  	 } 
-
 	}
     })
-
-			
-		
 		} 
 			
 		  function editbtn(edit,uid)
@@ -169,9 +165,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
         //设置父节点的双击事件为空
         newobj.parentNode.setAttribute("ondblclick", "");
-			
-			     
-	
 	}
 	
 	

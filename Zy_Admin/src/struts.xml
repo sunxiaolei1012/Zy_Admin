@@ -11,11 +11,18 @@
         	<result type="json"></result>  
          </action> 
          
-         
+          
+          <action name="Card_*" class="com.zy.Control.CardControll" method="{1}">
+        	<result name="sellCard">sellCard.jsp</result>
+        	<result type="json"></result>  
+         </action> 
+         <action name="Order_*" class="com.zy.Control.OrderControll" method="{1}">
+        	<result name="sumPrice">sumPrice.jsp</result>
+        	<result type="json"></result>  
+         </action> 
          
           
           <action name="Product_*" class="com.zy.Control.ProductControll" method="{1}">
-        	
         	<result name="sortProduct">Tea_manage/product_sortProduct.jsp</result>
         	<result name="showSort">Tea_manage/product_sort.jsp</result>
         	<result type="json"></result>  
